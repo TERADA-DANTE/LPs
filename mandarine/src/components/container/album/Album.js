@@ -1,8 +1,9 @@
-import '../../styles/Album.css'
+import '../../../styles/Album.css'
+import AlbumIn from './AlbumIn'
 function Album() {
     return (
         <div className={'Album'}>
-            hi
+            <AlbumIn />
         </div>
     )
 }

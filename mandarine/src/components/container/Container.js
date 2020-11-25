@@ -1,7 +1,7 @@
 import '../../styles/Container.css'
 import Header from './header/Header'
-import Album from './Album'
-import Description from './Description'
+import Album from './album/Album'
+import Description from './description/Description'
 function Container() {
     return (
         <div className={'Container'}>

@@ -1,4 +1,6 @@
 .Album{
-    border: 2px solid black;
     grid-area: Album;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
