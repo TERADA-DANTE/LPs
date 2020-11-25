@@ -1,4 +1,4 @@
-import '../../../../styles/Buttons.css'
+import '../../../../styles/Button.css'
 function Button(props) {
     return (
         <div className={props.className}>

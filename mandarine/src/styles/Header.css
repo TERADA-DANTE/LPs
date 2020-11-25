@@ -1,5 +1,5 @@
 .Header{
     grid-area: Header;
     display : grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 2fr 3fr 5fr;
 }

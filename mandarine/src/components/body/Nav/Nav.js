@@ -1,4 +1,4 @@
-import '../../../../styles/Nav.css'
+import '../../../styles/Nav.css'
 function Nav(props) {
     return (
         <div className={props.className}>

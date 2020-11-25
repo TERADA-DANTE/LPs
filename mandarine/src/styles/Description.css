@@ -1,6 +1,5 @@
 .Description{
-    grid-area: Description;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }

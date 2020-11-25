@@ -1,5 +1,5 @@
-import '../../../../styles/Buttons.css'
-import Button from './Button'
+import '../../../styles/Buttons.css'
+//import Button from './Button'
 function Buttons(props) {
     return (
         <div className={props.className}>
