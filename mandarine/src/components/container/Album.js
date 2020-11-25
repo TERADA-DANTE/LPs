@@ -1,4 +1,4 @@
-
+import '../../styles/Album.css'
 function Album() {
     return (
         <div className={'Album'}>

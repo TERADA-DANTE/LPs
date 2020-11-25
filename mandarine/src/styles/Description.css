@@ -1,0 +1,4 @@
+.Description{
+    grid-area: Description;
+    border: 2px solid black;
+}

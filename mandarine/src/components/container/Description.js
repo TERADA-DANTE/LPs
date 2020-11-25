@@ -1,4 +1,4 @@
-//import '../../styles/ContainerR.css'
+import '../../styles/Description.css'
 
 function Description() {
     return (
