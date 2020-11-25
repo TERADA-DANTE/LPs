@@ -1,5 +1,5 @@
 import '../../styles/Container.css'
-import Header from './Header'
+import Header from './header/Header'
 import Album from './Album'
 import Description from './Description'
 function Container() {

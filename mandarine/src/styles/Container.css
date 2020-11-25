@@ -6,7 +6,7 @@
     grid-template-areas: 
     "Header Header"
     "Album Description";
-    gap: 10px;
+    /* gap: 10px; */
     width: 768px;
     height: 400px;
     background: linear-gradient(90deg, #f5b000 0%, #f5b000 20%, rgba(245,245,245,1) 20%);
