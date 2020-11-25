@@ -1,11 +1,11 @@
 import '../../styles/Container.css'
-import ContainerL from './ContainerL'
-import ContainerR from './ContainerR'
+import Album from './Album'
+import Description from './Description'
 function Container() {
     return (
         <div className={'Container'}>
-            <ContainerL />
-            <ContainerR />
+            <Album />
+            <Description />
         </div>
     )
 }
