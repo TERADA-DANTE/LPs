@@ -1,4 +1,6 @@
+import '../../styles/Subscribe.css'
+
 function Subscribe() {
-    return <div>This is subscribe</div>
+    return <aside className={`Subscribe`}>This is subscribe</aside>
 }
 export default Subscribe
