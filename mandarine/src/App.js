@@ -29,14 +29,15 @@ function App() {
         <ContainerIn>
           <Buttons />
           <Content type={'Album'}>
-            <Gallery name={name} img={img} />
+            <Gallery props={[name, img]} />
+            {/* need onClick delegation */}
             <Player />
           </Content>
         </ContainerIn>
         <ContainerIn>
           <Nav items={['Home', 'About', 'Contact', 'F&A']} />
           <Content type={'Description'}>
-            <Description />
+            <Description props={[type, name, desc]} />
             <Subscribe />
           </Content>
         </ContainerIn>
