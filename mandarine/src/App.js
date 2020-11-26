@@ -1,7 +1,7 @@
 // import Layouts
 import Container from './layouts/Container'
 import ContainerIn from './layouts/ContainerIn'
-
+import Content from './layouts/Content'
 // import CSS
 import './styles/App.css'
 
@@ -17,11 +17,15 @@ function App() {
       <Container >
         <ContainerIn>
           <Buttons />
-          <Album />
+          <Content className={'Album'}>
+            <Album />
+          </Content>
         </ContainerIn>
         <ContainerIn>
           <Nav items={['Home', 'About', 'Contact', 'F&A']} />
-          <Description />
+          <Content className={'Description'}>
+            <Description />
+          </Content>
         </ContainerIn>
       </Container>
     </div>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 // import 
 
-const StyledContainerIn = styled.article`
+const StyledContainerIn = styled.section`
     height:100%;
     width:50%;
     display : grid;
