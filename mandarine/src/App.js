@@ -1,3 +1,5 @@
+// import Packages
+import react, { useState } from 'react'
 // import Layouts
 import Container from './layouts/Container'
 import ContainerIn from './layouts/ContainerIn'
@@ -13,14 +15,21 @@ import Gallery from './components/album/Gallery'
 import Player from './components/album/Player'
 import Subscribe from './components/description/Subscribe'
 
+//import files
+import data from './assets/data/data.json'
+
 function App() {
+  /*Lazy loading ? */
+  const [index, setIndex] = useState(0)
+  const { type, name, img, desc } = data[index]
+
   return (
     <div className="App">
       <Container >
         <ContainerIn>
           <Buttons />
           <Content type={'Album'}>
-            <Gallery />
+            <Gallery name={name} img={img} />
             <Player />
           </Content>
         </ContainerIn>

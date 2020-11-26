@@ -1,9 +1,14 @@
 import '../../styles/Description.css'
 function Description() {
     return (
-        <div className={'Description'}>
-            Description
-        </div>
+        <article className={'Description'}>
+            here is desc
+            {/* type */}
+            {/*Name*/}
+            {/*information */}
+            {/*ReadMore */}
+            {/* SNS */}
+        </article>
     )
 }
 

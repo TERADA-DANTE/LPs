@@ -4,6 +4,7 @@ import styled from 'styled-components'
 // import 
 
 function Content({ children, type }) {
+    /*This way causes warnings */
     const padding = type === 'Album' ? '0px 15px 50px 25px' : '0px 25px 50px 0px'
     const StyledContent = styled.section`
         display : grid;
