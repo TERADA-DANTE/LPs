@@ -3,9 +3,9 @@ import styled from 'styled-components'
 
 // import 
 
-function Content({ children, className }) {
-    const padding = className === 'Album' ? '0px 15px 50px 25px' : '0px 25px 50px 0px'
-    const StyledContent = styled.article`
+function Content({ children, type }) {
+    const padding = type === 'Album' ? '0px 15px 50px 25px' : '0px 25px 50px 0px'
+    const StyledContent = styled.section`
         display : grid;
         grid-template-columns : 1fr 1fr;
         grid-template-rows : 5fr 1fr;
@@ -14,7 +14,7 @@ function Content({ children, className }) {
         padding : ${padding}    
     `
     return (
-        <StyledContent className={className}>
+        <StyledContent>
             {children}
         </StyledContent>
     )
