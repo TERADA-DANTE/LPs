@@ -1,4 +1,4 @@
-import '../../../../styles/DescriptionIn.css'
+import '../../styles/DescriptionIn.css'
 
 function DescriptionIn() {
     return (

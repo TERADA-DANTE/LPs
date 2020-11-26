@@ -1,5 +1,5 @@
 .Album{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    padding: 0px 25px 50px 25px;
 }

@@ -2,10 +2,10 @@
 import styled from 'styled-components'
 
 //import '../styles/Container.css'
-const StyledContainer = styled.div`
+const StyledContainer = styled.section`
     display : flex;
     align-items : center;
-    justify-contents : center;
+    justify-content : space-evenly;
     width: 768px;
     height: 400px;
     background: linear-gradient(90deg, #f5b000 0%, #f5b000 20%, rgba(245,245,245,1) 20%);
@@ -18,9 +18,13 @@ const StyledContainer = styled.div`
 `
 
 function Container({ children }) {
-    const Header = children[0]
-    const Body = children[1]
-    return <StyledContainer>{Header}{Body}</StyledContainer>
+    const Left = children[0]
+    const Right = children[1]
+    return (
+        <StyledContainer>
+            {Left}{Right}
+        </StyledContainer>
+    )
 }
 
 export default Container

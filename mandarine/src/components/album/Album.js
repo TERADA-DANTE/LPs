@@ -1,5 +1,5 @@
-import '../../../styles/Album.css'
-//import AlbumIn from './AlbumIn'
+import '../../styles/Album.css'
+import AlbumIn from './AlbumIn'
 function Album() {
     return (
         <div className={'Album'}>

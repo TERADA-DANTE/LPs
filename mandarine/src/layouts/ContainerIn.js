@@ -1,11 +1,22 @@
-import '../styles/ContainerIn.css'
+// import packages
+import styled from 'styled-components'
 
-function ContainerIn({ children }) {
-    console.log(children);
+// import 
+
+const StyledContainerIn = styled.article`
+    height:100%;
+    width:50%;
+    display : grid;
+    grid-template-rows: 1fr 7fr;
+    grid-template-columns : 2fr 3fr;
+`
+function ContainerIn({ children, className }) {
+    const header = children[0]
+    const section = children[1]
     return (
-        <div className={'ContainerIn'}>
-            ''
-        </div>
+        <StyledContainerIn className={className}>
+            {header}{section}
+        </StyledContainerIn>
     )
 }
 

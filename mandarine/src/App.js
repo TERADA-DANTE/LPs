@@ -6,26 +6,23 @@ import ContainerIn from './layouts/ContainerIn'
 import './styles/App.css'
 
 // import Components
-import Buttons from './components/header/buttons/Buttons'
-import Album from './components/header/album/Album'
-import Nav from './components/body/Nav/Nav'
-import Description from './components/body/description/Description'
+import Buttons from './components/buttons/Buttons'
+import Album from './components/album/Album'
+import Nav from './components/Nav/Nav'
+import Description from './components/description/Description'
 
 function App() {
   return (
     <div className="App">
       <Container >
-        <ContainerIn>a</ContainerIn>
-        <ContainerIn>b</ContainerIn>
-        {/* <ContainerIn className={'Header'}><div className='test2'>test sample2</div></ContainerIn> */}
-        {/* <ContainerIn>
+        <ContainerIn>
           <Buttons />
           <Album />
         </ContainerIn>
         <ContainerIn>
           <Nav />
           <Description />
-        </ContainerIn> */}
+        </ContainerIn>
       </Container>
     </div>
   );
