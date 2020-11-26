@@ -1,6 +1,9 @@
 .Buttons{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
     padding-left: 25px;
+    list-style: none;
 }
