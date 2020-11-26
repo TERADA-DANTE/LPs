@@ -1,9 +1,14 @@
+import { Fragment } from 'react'
 import '../../styles/Album.css'
+import Gallery from './Gallery'
+import Player from './Player'
+
 function Album() {
     return (
-        <div className={'Album'}>
-            Album
-        </div>
+        <Fragment>
+            <Gallery className={'Gallery'} />
+            <Player className={'Player'} />
+        </Fragment>
     )
 }
 

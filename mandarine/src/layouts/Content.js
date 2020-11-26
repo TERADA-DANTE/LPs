@@ -5,8 +5,10 @@ import styled from 'styled-components'
 
 function Content({ children, className }) {
     const padding = className === 'Album' ? '0px 15px 50px 25px' : '0px 25px 50px 0px'
-    const StyledContent = styled.section`
+    const StyledContent = styled.article`
         display : grid;
+        grid-template-columns : 1fr 1fr;
+        grid-template-rows : 5fr 1fr;
         grid-row : 2;
         grid-column: 1 / span 2;
         padding : ${padding}    
