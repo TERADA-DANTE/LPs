@@ -5,8 +5,11 @@ function Nav(props) {
         <div className={'Nav'}>
             <ul>
                 {items.map((item, index) =>
-                    <li className={`${item} nav-icons`} key={index}>
-                        <a href={'./'} >{item}</a>
+                    <li className={`${item}`} key={index}>
+                        <a href={'./'} className={`nav-icons`}>
+                            <span>
+                                {item}
+                            </span></a>
                     </li>)}
             </ul>
 
