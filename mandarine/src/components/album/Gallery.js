@@ -1,11 +1,10 @@
 import '../../styles/Gallery.css'
 
-function Gallery(props) {
-    const { props: name } = props
-    const src = require(`../../assets/images/${name.toLowerCase().split(' ').join('_')}.jpg`)
+function Gallery({ props }) {
+    const [name, img] = props
     return <article className={'Gallery'}>hi This is Galllery
         {name}
-        <img src={src} alt={name} />
+        <img src={img} alt={name} />
     </article>
 }
 

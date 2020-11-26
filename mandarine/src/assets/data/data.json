@@ -2,11 +2,13 @@
     {
         "type": "Actress",
         "name": "Yui Aragaki",
+        "img": "https://raw.githubusercontent.com/TERADA-DANTE/LPs/main/mandarine/src/assets/images/yui_aragaki.jpg",
         "desc": "Yui Aragaki is a Japanese actress, model, singer and occasional radio show host. She was selected as the most desired girlfriend and the most desired female celebrity face on Oricon's yearly survey several times."
     },
     {
         "type": "Actor",
         "name": "Hiroshi Abe",
+        "img": "https://raw.githubusercontent.com/TERADA-DANTE/LPs/main/mandarine/src/assets/images/hiroshi_abe.jpg",
         "desc": "Hiroshi Abe is a Japanese model and actor. He is known for his roles in Still Walking, Chocolate, and Godzilla 2000: Millennium."
     }
 ]
