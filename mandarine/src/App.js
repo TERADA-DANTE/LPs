@@ -29,7 +29,7 @@ function App() {
         <ContainerIn>
           <Buttons />
           <Content type={'Album'}>
-            <Gallery props={[name]} />
+            <Gallery props={name} />
             {/* need onClick delegation */}
             <Player />
           </Content>
