@@ -20,7 +20,7 @@ function App() {
           <Album />
         </ContainerIn>
         <ContainerIn>
-          <Nav />
+          <Nav items={['Home', 'About', 'Contact', 'F&A']} />
           <Description />
         </ContainerIn>
       </Container>
