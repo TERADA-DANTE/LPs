@@ -1,3 +1,28 @@
 .Description{
     grid-column: 1 / span 2;
 }
+
+.Description h3{
+    margin: 0;
+    display: inline;
+    background-color: orange;
+    padding: 0px 10px 0px 10px;
+    color: black;
+}
+
+.Description h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.Description .desc{
+    color: grey;
+    display: block;
+}
+
+.Description .sns{
+    display: inline-block;
+    background-color: orange;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+}

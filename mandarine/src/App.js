@@ -21,7 +21,7 @@ import data from './assets/data/data.json'
 function App() {
   /*Lazy loading ? */
   const [index, setIndex] = useState(0)
-  const { type, name, img, desc } = data[index]
+  const { type, name, desc } = data[index]
 
   return (
     <div className="App">
@@ -29,7 +29,7 @@ function App() {
         <ContainerIn>
           <Buttons />
           <Content type={'Album'}>
-            <Gallery props={[name, img]} />
+            <Gallery props={[name]} />
             {/* need onClick delegation */}
             <Player />
           </Content>
