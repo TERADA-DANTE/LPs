@@ -25,7 +25,6 @@ function App() {
   const handleClick = (dir) => setIndex((index + l + dir) % l)
 
   const { type, name, img, desc } = data[index]
-  console.log(index);
   return (
     <div className="App">
       <Container >
@@ -33,7 +32,7 @@ function App() {
           <Buttons props={['list', 'search', null]} />
           <Content type={'Album'}>
             <Gallery props={[name, img]} />
-            <Player onClick={(dir) => handleClick(dir)} />
+            <Player props={[index, l]} onClick={(dir) => handleClick(dir)} />
           </Content>
         </ContainerIn>
         <ContainerIn>

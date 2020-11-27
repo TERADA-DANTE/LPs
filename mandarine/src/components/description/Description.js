@@ -8,7 +8,7 @@ function Description(props) {
             {/*Name*/}
             <h1>{name}</h1>
             {/*information */}
-            <span className={`desc`}>{desc}</span>
+            <p className={`desc`}>{desc}</p>
             {/*ReadMore */}
             <div className={`sns`}>Find more</div >
             {/* SNS */}
