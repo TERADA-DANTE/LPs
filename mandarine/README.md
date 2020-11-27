@@ -8,7 +8,7 @@ Landing page inspired by Mandrine colour
 
 # Demo
 
-mandarine-terada.netlify.app
+[mandarine demo](https://mandarine-terada.netlify.app)
 
 # Dependency
 
