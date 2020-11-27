@@ -1,8 +1,8 @@
 # LPs
 Hypothetical website mainly LP
 
-- Mandarine
+# Mandarine
 
 ![mandarine preview](./mandarine/site-preview.jpg)
 
-[mandarine demo](https://mandarine-terada.netlify.app/)
+[CLICK HERE TO CHECK MANDARINE DEMO](https://mandarine-terada.netlify.app/)
