@@ -1,5 +1,5 @@
 // import Packages
-import react, { useState } from 'react'
+import { useState } from 'react'
 // import Layouts
 import Container from './layouts/Container'
 import ContainerIn from './layouts/ContainerIn'
@@ -21,17 +21,19 @@ import data from './assets/data/data.json'
 function App() {
   /*Lazy loading ? */
   const [index, setIndex] = useState(0)
+  const l = data.length
+  const handleClick = (dir) => setIndex((index + l + dir) % l)
+
   const { type, name, img, desc } = data[index]
-  console.log(type, name, img);
+  console.log(index);
   return (
     <div className="App">
       <Container >
         <ContainerIn>
-          <Buttons props={['list', 'search']} />
+          <Buttons props={['list', 'search', null]} />
           <Content type={'Album'}>
             <Gallery props={[name, img]} />
-            {/* need onClick delegation */}
-            <Player />
+            <Player onClick={(dir) => handleClick(dir)} />
           </Content>
         </ContainerIn>
         <ContainerIn>

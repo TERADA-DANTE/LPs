@@ -16,11 +16,11 @@ function Buttons({ props }) {
         left: Left,
         right: Right
     }
-    const [v, w] = props
+    const [v, w, onClick] = props
     return (
         <ul className={'Buttons'}>
-            <Button className={`${v}-button`} icon={icons[v]} />
-            <Button className={`${w}-button`} icon={icons[w]} />
+            <Button className={`${v}-button`} icon={icons[v]} onClick={onClick ? () => onClick(-1) : null} />
+            <Button className={`${w}-button`} icon={icons[w]} onClick={onClick ? () => onClick(1) : null} />
         </ul>
     )
 }
