@@ -4,9 +4,9 @@ function Description(props) {
     return (
         <article className={'Description'}>
             {/* type */}
-            <h3>{type}</h3>
+            <h3 className={`type`}>{type}</h3>
             {/*Name*/}
-            <h1>{name}</h1>
+            <h1 className={`name`}>{name}</h1>
             {/*information */}
             <p className={`desc`}>{desc}</p>
             {/*ReadMore */}

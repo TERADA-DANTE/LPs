@@ -24,7 +24,7 @@ function App() {
   const l = data.length
   const handleClick = (dir) => setIndex((index + l + dir) % l)
 
-  const { type, name, img, desc } = data[index]
+  const { type, name, img, desc, ...sns } = data[index]
   return (
     <div className="App">
       <Container >
@@ -39,7 +39,7 @@ function App() {
           <Nav items={['Home', 'About', 'Contact', 'F&A']} />
           <Content type={'Description'}>
             <Description props={[type, name, desc]} />
-            <Subscribe />
+            <Subscribe props={[name, sns]} />
           </Content>
         </ContainerIn>
       </Container>
