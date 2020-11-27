@@ -1,3 +1,17 @@
 .Player{
     grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.Player .Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    background-color: #f9b301;
+}
+.Player .Buttons .icon img{
+    width: 30%;
+    height: 30%;
 }

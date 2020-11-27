@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <Container >
         <ContainerIn>
-          <Buttons />
+          <Buttons props={['list', 'search']} />
           <Content type={'Album'}>
             <Gallery props={[name, img]} />
             {/* need onClick delegation */}

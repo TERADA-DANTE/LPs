@@ -7,11 +7,20 @@ import Button from './Button'
 // import files
 import Search from '../../assets/icons/search.svg'
 import List from '../../assets/icons/list.svg'
-function Buttons() {
+import Left from '../../assets/icons/left.svg'
+import Right from '../../assets/icons/right.svg'
+function Buttons({ props }) {
+    const icons = {
+        list: List,
+        search: Search,
+        left: Left,
+        right: Right
+    }
+    const [v, w] = props
     return (
         <ul className={'Buttons'}>
-            <Button className={'search-button'} icon={List} />
-            <Button className={'list-button'} icon={Search} />
+            <Button className={`${v}-button`} icon={icons[v]} />
+            <Button className={`${w}-button`} icon={icons[w]} />
         </ul>
     )
 }
