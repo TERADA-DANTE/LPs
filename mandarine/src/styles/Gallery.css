@@ -1,4 +1,11 @@
 .Gallery{
     grid-row: 1;
     grid-column: 1 / span 2;
+    margin: 0;
+    padding: 0;
+}
+.Gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
