@@ -7,7 +7,7 @@ const StyledContainerIn = styled.section`
     height:100%;
     width:50%;
     display : grid;
-    grid-template-rows: 1fr 7fr;
+    grid-template-rows: 50px 350px;
     grid-template-columns : 2fr 3fr;
 `
 function ContainerIn({ children, className }) {

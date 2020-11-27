@@ -9,7 +9,7 @@ function Content({ children, type }) {
     const StyledContent = styled.section`
         display : grid;
         grid-template-columns : 1fr 1fr;
-        grid-template-rows : 5fr 1fr;
+        grid-template-rows : 250px 50px;
         grid-row : 2;
         grid-column: 1 / span 2;
         padding : ${padding}    
