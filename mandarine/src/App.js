@@ -20,7 +20,7 @@ import data from './assets/data/data.json'
 
 function App() {
   /*Lazy loading ? */
-  const [index, setIndex] = useState(1)
+  const [index, setIndex] = useState(2)
   const { type, name, img, desc } = data[index]
 
   return (
