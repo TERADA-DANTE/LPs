@@ -22,7 +22,7 @@ function App() {
   /*Lazy loading ? */
   const [index, setIndex] = useState(2)
   const { type, name, img, desc } = data[index]
-
+  console.log(type, name, img);
   return (
     <div className="App">
       <Container >

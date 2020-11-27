@@ -14,7 +14,7 @@
     {
         "type": "test",
         "name": "test",
-        "img ": "",
+        "img": "https://raw.githubusercontent.com/TERADA-DANTE/LPs/main/mandarine/src/assets/images/hiroshi_abe.jpg",
         "desc": "test"
     }
 ]
