@@ -1,9 +1,14 @@
+.Description *{
+    margin: 0;
+}
 .Description{
     grid-column: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
 .Description h3{
-    margin: 0;
     display: inline;
     background-color: orange;
     padding: 0px 10px 0px 10px;
@@ -11,7 +16,6 @@
 }
 
 .Description h1{
-    margin: 0;
     font-size: 2rem;
 }
 
@@ -23,6 +27,5 @@
 .Description .sns{
     display: inline-block;
     background-color: orange;
-    margin-top: 10px;
     padding: 0px 10px 0px 10px;
 }
