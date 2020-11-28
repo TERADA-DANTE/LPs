@@ -1,0 +1,11 @@
+.Mark{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.Mark-main{
+    grid-column: 2;
+}
+.Mark-aside{
+    grid-column: 3;
+}
