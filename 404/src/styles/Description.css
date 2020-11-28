@@ -3,11 +3,13 @@
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
-}
+    }
 
 .Description span{
     position: relative;
+    color: #2f2e41;
     animation: bounce 1.5s ease infinite alternate;
+    text-shadow: 1px 1px #6c63ff;
   }
 
 @keyframes bounce{
