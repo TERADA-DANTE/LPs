@@ -1,0 +1,3 @@
+#root > div > div > div.Mark-aside > svg > path:nth-child(3){
+    animation: handle 1s linear infinite;
+}

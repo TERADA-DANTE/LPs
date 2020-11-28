@@ -1,0 +1,14 @@
+@media (max-width: 600px){
+    .Mark-aside{
+    display: none;
+    }
+  }
+
+  @media (max-width: 450px){
+    .Mark-main, .Description{
+        width: 90vw;
+    }
+    .Description{
+        text-align: center;
+    }
+  }
