@@ -1,0 +1,20 @@
+.Description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.Description span{
+    position: relative;
+    animation: bounce 1.5s ease infinite alternate;
+  }
+
+@keyframes bounce{
+    0%{
+        top:0px;
+    }
+    100%{
+      top: -10px;
+    }
+}
