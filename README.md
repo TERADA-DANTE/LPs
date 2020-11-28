@@ -5,4 +5,9 @@ Hypothetical website mainly LP
 
 ![mandarine preview](./mandarine/site-preview.jpg)
 
-[CLICK HERE TO CHECK MANDARINE DEMO](https://mandarine-terada.netlify.app/)
+> [CLICK HERE TO CHECK MANDARINE DEMO](https://mandarine-terada.netlify.app/)
+
+# 404
+![404 preview](./404/site-preview.jpg)
+
+> [CLICK HERE TO CHECK 404 DEMO](https://mandarine-terada.netlify.app/)
