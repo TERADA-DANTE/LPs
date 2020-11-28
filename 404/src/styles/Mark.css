@@ -11,5 +11,14 @@
 }
 
 .eyes{
-    fill: black;
+    animation: jump 3s linear infinite alternate;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
 }

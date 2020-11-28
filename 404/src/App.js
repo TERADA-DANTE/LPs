@@ -10,7 +10,7 @@ function App() {
       <Mark />
       <Description />
     </div>
-  );
+  )
 }
 
 export default App;
