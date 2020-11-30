@@ -1,5 +1,7 @@
 function Aside() {
-    return <div>Here is aside</div>
+    return <div className={`Aside`}>
+
+    </div>
 }
 
 export default Aside

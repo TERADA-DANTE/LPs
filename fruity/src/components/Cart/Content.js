@@ -1,5 +1,7 @@
 function Content() {
-    return <div>Here is content</div>
+    return <div className={`Content`}>
+
+    </div>
 }
 
 export default Content
