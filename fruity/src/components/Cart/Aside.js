@@ -1,7 +1,9 @@
 function Aside() {
-    return <div className={`Aside`}>
-
-    </div>
+    const items = ['Instagram', 'Twitter', 'Youtube']
+    return <ul className={`Aside`}>
+        {items.map((item, index) =>
+            <li key={index}>{item}</li>)}
+    </ul>
 }
 
 export default Aside

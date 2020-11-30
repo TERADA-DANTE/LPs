@@ -1,5 +1,11 @@
 .Show{
     width: 100%;
-    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-top: 2px solid black
+}
+.Show > .item{
+    width: 50%;
+    height: 50%;
 }

@@ -8,11 +8,10 @@ import Language from './Gallery/Language'
 import DefaultImg from '../assets/images/default.jpg'
 function Gallery() {
     return <Fragment>
-
         <section className={`Gallery`}>
             <img src={DefaultImg} alt="default" className={`background`} />
-            <Header />
-            <Show />
+            {/* <Header />
+            <Show /> */}
             <Language />
         </section>
     </Fragment>
