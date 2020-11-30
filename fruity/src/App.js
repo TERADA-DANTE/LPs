@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Gallery from './components/Gallery'
 import Cart from './components/Cart'
+
 // import files
 const fruits = [
   {

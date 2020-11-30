@@ -1,3 +1,4 @@
+import '../../styles/Nav.css'
 function Nav({ props, className }) {
 
     return <ul className={className}>

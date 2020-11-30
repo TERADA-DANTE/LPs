@@ -3,8 +3,8 @@ import '../styles/Cart.css'
 
 // import component
 import Aside from './Cart/Aside'
-import Content from './Cart/Content/Content'
-import Nav from './Header/Nav'
+import Cards from './Cart/Card/Cards'
+import Nav from './Cart/Nav'
 
 // import files
 import Search from '../assets/icons/search.svg'
@@ -17,11 +17,11 @@ function Cart({ props }) {
         list: List
     }
     const buttons = ['search', 'cargo', 'list'].map((item) =>
-        <img src={icons[item]} alt={item} />
+        <img src={icons[item]} alt={item} width={`15px`} height={`15px`} />
     )
     return <section className={`Cart`}>
-        <Nav props={buttons} className={`Cart-Nav`} />
-        <Content props={props} />
+        <Nav props={buttons} className={`Nav`} />
+        <Cards props={props} />
         <Aside />
     </section>
 }

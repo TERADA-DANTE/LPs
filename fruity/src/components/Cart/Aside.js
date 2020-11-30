@@ -1,3 +1,4 @@
+import '../../styles/Aside.css'
 function Aside() {
     const items = ['Instagram', 'Twitter', 'Youtube']
     return <ul className={`Aside`}>
