@@ -1,18 +1,17 @@
 import '../../../styles/Description.css'
 
-function Description() {
+function Description({ name, origin, colors }) {
     return <article className={`Description`}>
         <div className={`detail`}>
-            <h1>Banana</h1>
-            <h4>fukuoka</h4>
-            <span>$0.99</span>
+            <h1 className={`name`}>{name}</h1>
+            <h4 className={`origin`}>{origin}</h4>
         </div>
         <nav className={`color`}>
             <ul className={`color-pick`}>
-                <li>color 1</li>
-                <li>color 2</li>
+                {colors.map((color, index) => <li key={index}>{color}</li>)}
             </ul>
         </nav>
+        <h6 className={`btn`}>Copy CSS</h6>
     </article>
 }
 export default Description

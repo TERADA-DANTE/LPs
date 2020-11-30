@@ -10,18 +10,18 @@ import Nav from './Header/Nav'
 import Search from '../assets/icons/search.svg'
 import Cargo from '../assets/icons/cargo.svg'
 import List from '../assets/icons/list.svg'
-function Cart() {
+function Cart({ props }) {
     const icons = {
         search: Search,
         cargo: Cargo,
         list: List
     }
-    const props = ['search', 'cargo', 'list'].map((item) =>
+    const buttons = ['search', 'cargo', 'list'].map((item) =>
         <img src={icons[item]} alt={item} />
     )
     return <section className={`Cart`}>
-        <Nav props={props} className={`Cart-Nav`} />
-        <Content />
+        <Nav props={buttons} className={`Cart-Nav`} />
+        <Content props={props} />
         <Aside />
     </section>
 }
