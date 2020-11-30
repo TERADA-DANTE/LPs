@@ -1,0 +1,20 @@
+.Header{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.Header > .Logo{
+    grid-column: 1;
+    /* padding: 20px; */
+}
+
+.Header > .Logo > svg{
+    
+}
+.Header > .Header-Nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    grid-column: 3 / span 6;
+    font-size: 20px;
+}

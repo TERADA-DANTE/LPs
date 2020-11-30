@@ -1,0 +1,16 @@
+.Gallery{
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.Gallery > .Header{
+    grid-row: 1;
+}
+.Gallery > .Show{
+    grid-row: 2;
+}
+.Gallery > .Language{
+    position: absolute;
+    bottom: 10%;
+    grid-row: 2;
+}
