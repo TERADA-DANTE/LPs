@@ -3,7 +3,7 @@ import '../styles/Cart.css'
 
 // import component
 import Aside from './Cart/Aside'
-import Content from './Cart/Content'
+import Content from './Cart/Content/Content'
 import Nav from './Header/Nav'
 
 // import files

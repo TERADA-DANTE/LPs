@@ -1,0 +1,36 @@
+.Description{
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 46px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 46px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 46px -12px rgba(0,0,0,0.75);
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.detail h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.detail h4{
+    margin: 0;
+    padding: 0;
+    color: grey;
+    font-size: 0.6em;
+}
+.detail span{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-top: auto;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
