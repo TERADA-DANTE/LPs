@@ -3,7 +3,7 @@ import { Fragment } from 'react'
 import '../styles/Gallery.css'
 
 import Header from './Header/Header'
-// import Show from './Gallery/Show'
+import Show from './Gallery/Show'
 import Language from './Gallery/Language'
 import DefaultImg from '../assets/images/default.jpg'
 function Gallery() {
@@ -12,7 +12,7 @@ function Gallery() {
         <section className={`Gallery`}>
             <img src={DefaultImg} alt="default" className={`background`} />
             <Header />
-            {/* <Show /> */}
+            <Show />
             <Language />
         </section>
     </Fragment>

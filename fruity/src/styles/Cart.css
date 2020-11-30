@@ -11,7 +11,10 @@
     grid-row: 1;
     grid-column: 1 / span 3;
 }
-
+.Cart > .Cart-Nav img{
+    width : 15px;
+    height: 15px;
+}
 .Cart > .Content{
     background-color: khaki;
     grid-row: 2;
