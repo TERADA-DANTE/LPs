@@ -2,5 +2,5 @@
     border-top: 2px solid black
 }
 .Show img{
-    width: 100%;
+    display: none;
 }
