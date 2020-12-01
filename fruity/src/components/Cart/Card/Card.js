@@ -1,7 +1,8 @@
 import '../../../styles/Card.css'
 
-function Card({ name, origin, colors }) {
-    return <article className={`Card`}>
+function Card(props) {
+    const { name, origin, colors, isActive } = props
+    return <article className={`Card ${isActive ? 'Card-active' : ''}`}>
         <div className={`Description`}>
             <h1 className={`name`}>{name}</h1>
             <h4 className={`origin`}>{origin}</h4>

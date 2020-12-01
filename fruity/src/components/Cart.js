@@ -11,6 +11,7 @@ import Search from '../assets/icons/search.svg'
 import Cargo from '../assets/icons/cargo.svg'
 import List from '../assets/icons/list.svg'
 function Cart({ props }) {
+    const [fruits, index] = props
     const icons = {
         search: Search,
         cargo: Cargo,
@@ -21,7 +22,7 @@ function Cart({ props }) {
     )
     return <section className={`Cart`}>
         <Nav props={buttons} className={`Nav`} />
-        <Cards props={props} />
+        <Cards props={[fruits, index]} />
         <Aside />
     </section>
 }

@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './styles/App.css'
 import Gallery from './components/Gallery'
 import Cart from './components/Cart'
@@ -39,11 +40,11 @@ const fruits = [
   }
 ]
 function App() {
-
+  const [index, setIndex] = useState(0)
   return (
     <div className="App">
-      <Gallery />
-      <Cart props={fruits} />
+      <Gallery props={[fruits, index]} />
+      <Cart props={[fruits, index]} />
     </div>
   )
 }
