@@ -11,5 +11,4 @@ Landing page inspired by Mandrine colour
 [CLICK HERE TO CHECK FRUITY DEMO](https://fruity-terada.netlify.app/)
 
 # Dependency
-
 - React.js
