@@ -11,3 +11,9 @@ Hypothetical website mainly LP
 ![404 preview](./404/site-preview.jpg)
 
 > [CLICK HERE TO CHECK 404 DEMO](https://404-terada.netlify.app/)
+
+# Fruity
+
+![fruity preview](./fruity/site-preview.jpg)
+
+> [CLICK HERE TO CHECK FRUITY DEMO](https://fruity-terada.netlify.app/)
