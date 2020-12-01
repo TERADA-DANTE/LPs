@@ -12,7 +12,7 @@ function Card({ name, origin, colors }) {
                     backgroundColor: color,
                     width: '100%'
                 }
-                return <li key={index} style={style}>.</li>
+                return <li key={index} style={style}></li>
             })}
         </ul>
     </article>
