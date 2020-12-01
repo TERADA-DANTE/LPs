@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <Gallery props={[fruits, index]} />
-      <Cart props={[fruits, index]} />
+      <Cart props={[fruits, index, setIndex]} />
     </div>
   )
 }

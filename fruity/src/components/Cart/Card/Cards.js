@@ -3,7 +3,7 @@ import '../../../styles/Cards.css'
 import Card from './Card'
 
 function Cards({ props }) {
-    const [fruits, index] = props
+    const [fruits, index, setIndex] = props
     return <div className={`Cards`}>
         {
             fruits.map((fruit, idx) => {
@@ -14,6 +14,7 @@ function Cards({ props }) {
                     origin={origin}
                     colors={colors}
                     isActive={index === idx}
+                    setIndex={() => setIndex(idx)}
                 />
             })
         }

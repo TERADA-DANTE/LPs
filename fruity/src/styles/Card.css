@@ -8,7 +8,7 @@
     -moz-box-shadow: 0px 0px 46px -12px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 46px -12px rgba(0,0,0,0.75);
     padding: 10px 5px 10px 5px;
-    transition: 1s linear;
+    transition: 0.5s linear;
 }
 .Card-active{
     background-color: white;
