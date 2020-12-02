@@ -1,8 +1,8 @@
 .App {
-    display: grid;
-    height: 100vh;
-    /* max-width: '1920px';
+  display: grid;
+  height: 100vh;
+  /* max-width: '1920px';
     max-height: '1080px'; */
-    grid-template-columns: 8fr 4fr;
-    transition: 1s linear;
+  grid-template-columns: 8fr 4fr;
+  transition: 1s linear;
 }
