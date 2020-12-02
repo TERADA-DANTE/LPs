@@ -1,8 +1,8 @@
-import '../../styles/Description.css'
+import "../../styles/Description.css"
 function Description(props) {
     const [type, name, desc] = props.props
     return (
-        <article className={'Description'}>
+        <article className={"Description"}>
             {/* type */}
             <h3 className={`type`}>{type}</h3>
             {/*Name*/}
@@ -10,7 +10,7 @@ function Description(props) {
             {/*information */}
             <p className={`desc`}>{desc}</p>
             {/*ReadMore */}
-            <div className={`sns`}>Find more</div >
+            <div className={`sns`}>Find more</div>
             {/* SNS */}
         </article>
     )

@@ -1,11 +1,11 @@
-.Show{
+.Show {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid black
+    border-top: 2px solid black;
 }
-.Show > .item{
+.Show > .item {
     width: 50%;
     height: 50%;
 }

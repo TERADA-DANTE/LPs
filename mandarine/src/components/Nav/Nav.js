@@ -1,18 +1,17 @@
-import '../../styles/Nav.css'
+import "../../styles/Nav.css"
 function Nav(props) {
     const { items } = props
     return (
-        <div className={'Nav'}>
+        <div className={"Nav"}>
             <ul>
-                {items.map((item, index) =>
+                {items.map((item, index) => (
                     <li className={`${item}`} key={index}>
-                        <a href={'./'} className={`nav-icons`}>
-                            <span>
-                                {item}
-                            </span></a>
-                    </li>)}
+                        <a href={"./"} className={`nav-icons`}>
+                            <span>{item}</span>
+                        </a>
+                    </li>
+                ))}
             </ul>
-
         </div>
     )
 }

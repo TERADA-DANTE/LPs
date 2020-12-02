@@ -1,11 +1,12 @@
-import '../../styles/Nav.css'
+import "../../styles/Nav.css"
 function Nav({ props, className }) {
-
-    return <ul className={className}>
-        {props.map((item, index) => <li key={index} >
-            {item}
-        </li>)}
-    </ul>
+    return (
+        <ul className={className}>
+            {props.map((item, index) => (
+                <li key={index}>{item}</li>
+            ))}
+        </ul>
+    )
 }
 
 export default Nav

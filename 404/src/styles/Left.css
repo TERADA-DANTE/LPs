@@ -1,20 +1,19 @@
-
-.Left{
+.Left {
     grid-row: 1;
     grid-column: 2;
 }
 
-#root > div > div > svg > path:nth-child(3){
+#root > div > div > svg > path:nth-child(3) {
     animation: handle 1s linear infinite;
 }
-#root > div > div > svg > path:nth-child(10){
+#root > div > div > svg > path:nth-child(10) {
     animation: handle 1s linear infinite;
 }
-@keyframes handle{
-    50%{
-        transform: translateY(5px)
+@keyframes handle {
+    50% {
+        transform: translateY(5px);
     }
-    100%{
-        transform: translateY(0px)
+    100% {
+        transform: translateY(0px);
     }
 }

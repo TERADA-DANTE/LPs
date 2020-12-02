@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap');
-.construction{
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap");
+.construction {
     display: none;
 }
-body{
+body {
     margin: 0px;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
 }
-a{
+a {
     text-decoration: none;
     color: black;
 }
-li{
+li {
     display: inline;
 }
 
-@media(max-width : 700px){
-    .construction{
+@media (max-width: 700px) {
+    .construction {
         position: absolute;
         width: 100vw;
         height: 100vh;
@@ -27,7 +27,7 @@ li{
         justify-content: center;
         align-items: center;
     }
-    .App *{
+    .App * {
         display: none;
     }
 }

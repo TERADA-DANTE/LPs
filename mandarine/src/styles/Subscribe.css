@@ -1,17 +1,17 @@
-.Subscribe{
+.Subscribe {
     height: 50px;
     grid-row: 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.Subscribe figure{
+.Subscribe figure {
     margin: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.Subscribe img{
+.Subscribe img {
     display: inline;
     width: 25px;
     height: 25px;
