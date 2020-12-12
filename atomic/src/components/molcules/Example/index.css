@@ -1,0 +1,6 @@
+.ant-alert {
+  display: inline-flex !important;
+}
+.ant-tree-list-holder-inner svg {
+  fill: #1d3357;
+}

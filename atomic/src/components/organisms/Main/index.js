@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 import Description from 'components/molcules/Description'
 import Guide from 'components/molcules/Guide'
+import Example from 'components/molcules/Example'
+
 const Wrapper = styled.div`
   @media screen and (max-width: 960px) {
     width: 100vw;
@@ -21,6 +23,7 @@ const Hero = () => {
     <Wrapper>
       <Description title={title} paragraph={paragraph} />
       <Guide />
+      <Example />
     </Wrapper>
   )
 }
