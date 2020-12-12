@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Steps, Button, message } from 'antd'
 import './index.css'
-import Atom from 'assets/images/atom.png'
-import Molcule from 'assets/images/molcule.png'
-import Organisms from 'assets/images/organisms.png'
-import Template from 'assets/images/template.png'
-import Page from 'assets/images/page.png'
+// import Atom from 'assets/images/atom.png'
+// import Molcule from 'assets/images/molcule.png'
+// import Organisms from 'assets/images/organisms.png'
+// import Template from 'assets/images/template.png'
+// import Page from 'assets/images/page.png'
 const { Step } = Steps
 
 const steps = [
@@ -13,7 +13,6 @@ const steps = [
     title: 'Atom',
     content: (
       <>
-        <img src={Atom} alt='Atom' />
         Atom はできる限り一番小さい Component のことをいいます。
         <br />
         例として button, title, input, event color pallets, animations, font
@@ -28,7 +27,6 @@ const steps = [
     title: 'Molcule',
     content: (
       <>
-        <img src={Molcule} alt='Molcule' />
         Molcule は 1 個もしくは 1 個以上の Atom の集合です。
         <br />
         ここから我々は複雑な Component の設計を行います。
@@ -42,7 +40,6 @@ const steps = [
     title: 'Organism',
     content: (
       <>
-        <img src={Organisms} alt='Organisms' />
         Organism はまた Molcule の集合。
         <br />
         もっと巧みのある Interface となります。
@@ -57,7 +54,6 @@ const steps = [
     title: 'Template',
     content: (
       <>
-        <img src={Template} alt='Template' />
         Template はまた別の領域かもしれません。
         <br />
         Template は Component 作成ではなく、Component
@@ -73,7 +69,6 @@ const steps = [
     title: 'Page',
     content: (
       <>
-        <img src={Page} alt='Page' />
         最終的に Template 内で構成された Component により Page が生まれます。
         <br />
         この段階で Design システムの効率確認、分析などを行います。

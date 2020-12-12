@@ -1,15 +1,18 @@
 import React from 'react'
-import styled from 'styled-components'
-import { PageHeader, Button } from 'antd'
+import { PageHeader, Button, message } from 'antd'
 
 const Navigation = () => {
   return (
     <PageHeader
       className='site-page-header'
       title='Atomic'
-      subTitle='desirable style for react'
+      subTitle='Desirable style for React.js'
       extra={[
-        <Button key='1' type='default'>
+        <Button
+          key='1'
+          type='default'
+          onClick={() => message.success('hello!')}
+        >
           Click here
         </Button>
       ]}
