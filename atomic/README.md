@@ -14,4 +14,4 @@ Landing page powered by atomic design
 
 - React.js
 - styled-components
-- React Materialize
+- ant-design
