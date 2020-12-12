@@ -1,5 +1,5 @@
 import React from 'react'
-import { PageHeader, Button, message } from 'antd'
+import { PageHeader } from 'antd'
 import Avatar from 'components/atoms/Avatar/index'
 
 const Navigation = () => {
@@ -8,7 +8,7 @@ const Navigation = () => {
       className='site-page-header'
       title='Atomic'
       subTitle='Desirable style for React.js'
-      extra={[<Avatar />]}
+      extra={<Avatar />}
     />
   )
 }

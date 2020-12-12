@@ -34,10 +34,13 @@
 button.ant-btn.ant-btn-primary {
   background-color: #1d3557 !important;
   border-color: #1d3557 !important;
+  color: #f1faee !important;
 }
 
-button:hover {
+button:hover,
+button:focus {
   border-color: #1d3557 !important;
   color: #1d3557 !important;
 }
+
 /*Override*/

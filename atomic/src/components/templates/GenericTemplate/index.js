@@ -18,7 +18,7 @@ const Header = styled.header`
   width: 100%;
   z-index: 999;
 `
-
+const Main = styled.main``
 const Hero = styled.section`
   display: flex;
   justify-content: center;
@@ -35,10 +35,18 @@ const Footer = styled.footer`
   margin-top: auto;
 `
 
-const GenericTemplate = ({ header, hero, children, footer, ...props }) => {
+const GenericTemplate = ({
+  header,
+  main,
+  hero,
+  children,
+  footer,
+  ...props
+}) => {
   return (
     <Wrapper {...props}>
       <Header>{header}</Header>
+      <Main>{main}</Main>
       <Hero>{hero}</Hero>
       <Content>{children}</Content>
       <Footer>{footer}</Footer>
