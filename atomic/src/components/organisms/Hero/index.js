@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Step from 'components/molcules/Step/index'
 import Description from 'components/molcules/Description/index'
-
+import Divider from 'components/atoms/Devider/index'
 const Wrapper = styled.div`
   @media screen and (max-width: 960px) {
     width: 100vw;
@@ -20,6 +20,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <Description title={title} paragraph={paragraph} />
+      <Divider />
       <Step />
     </Wrapper>
   )
