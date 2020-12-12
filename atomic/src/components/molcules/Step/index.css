@@ -9,3 +9,35 @@
 .steps-action {
   margin-top: 24px;
 }
+
+/*Override*/
+.ant-steps-item-icon {
+  background-color: #1d3557 !important;
+  border-color: #1d3557 !important;
+}
+
+.ant-steps-item-icon {
+  color: #f1faee !important;
+}
+.ant-steps-item-icon > span > span > svg {
+  fill: #f1faee !important;
+}
+
+.ant-steps-item-finish .ant-steps-item-title::after {
+  background-color: #1d3557 !important;
+  transition: 0.5s linear;
+}
+.ant-steps-item-title::after {
+  transition: 0.5s linear;
+}
+
+button.ant-btn.ant-btn-primary {
+  background-color: #1d3557 !important;
+  border-color: #1d3557 !important;
+}
+
+button:hover {
+  border-color: #1d3557 !important;
+  color: #1d3557 !important;
+}
+/*Override*/
