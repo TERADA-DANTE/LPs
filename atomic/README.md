@@ -4,7 +4,7 @@ Landing page powered by atomic design
 
 # Preview
 
-<!-- ![Fruity preview](./site-preview.jpg) -->
+![Atomic preview](./site-preview.jpg)
 
 # Demo
 
