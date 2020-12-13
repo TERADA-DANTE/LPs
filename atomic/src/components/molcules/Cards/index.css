@@ -1,0 +1,14 @@
+.ant-card-bordered {
+  -webkit-box-shadow: 5px 5px 20px 1px #c7c7c7;
+  box-shadow: 5px 5px 20px 1px #c7c7c7;
+
+  border-left: 2px solid rgb(29, 53, 87) !important;
+}
+.ant-row {
+  display: flex !important;
+}
+@media (max-width: 950px) {
+  .ant-row {
+    display: block !important;
+  }
+}

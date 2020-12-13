@@ -1,34 +1,17 @@
 import { Card, Avatar } from 'antd'
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined
-} from '@ant-design/icons'
-
+import { useState } from 'react'
 const { Meta } = Card
 
-export default function ({img, avatar }) {
+export default function ({ src, title, description }) {
+  // How to use..?
+  //const [isLoading, setIsLoading] = useState(false)
+
   return (
-    <Card
-      style={{ width: 300 }}
-      cover={
-        <img
-          alt={img.alt}
-          src={img.src}
-        />
-      }
-      actions={[
-        <SettingOutlined key='setting' />,
-        <EditOutlined key='edit' />,
-        <EllipsisOutlined key='ellipsis' />
-      ]}
-    >
+    <Card style={{ width: 300, marginTop: 16, height: '100%' }} loading={false}>
       <Meta
-        avatar={
-          <Avatar src={avatar.src} />
-        }
-        title={avatar.title}
-        description={avatar.description}
+        avatar={<Avatar src={src} />}
+        title={title}
+        description={description}
       />
     </Card>
   )

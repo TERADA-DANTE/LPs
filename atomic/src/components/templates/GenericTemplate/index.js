@@ -29,6 +29,9 @@ const Content = styled.section`
   width: 100%;
   box-sizing: border-box;
   margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 const Footer = styled.footer`
