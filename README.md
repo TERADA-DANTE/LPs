@@ -1,4 +1,5 @@
 # LPs
+
 Hypothetical website mainly LP
 
 # Mandarine
@@ -7,7 +8,14 @@ Hypothetical website mainly LP
 
 > [CLICK HERE TO CHECK MANDARINE DEMO](https://mandarine-terada.netlify.app/)
 
+# Atomic
+
+![Atomic preview](./atomic/site-preview.jpg)
+
+> [CLICK HERE TO CHECK ATOMIC DEMO](https://atomic-terada.netlify.app/)
+
 # 404
+
 ![404 preview](./404/site-preview.jpg)
 
 > [CLICK HERE TO CHECK 404 DEMO](https://404-terada.netlify.app/)

@@ -8,7 +8,7 @@ Landing page powered by atomic design
 
 # Demo
 
-<!-- [CLICK HERE TO CHECK FRUITY DEMO](https://fruity-terada.netlify.app/) -->
+[CLICK HERE TO CHECK ATOMIC DEMO](https://atomic-terada.netlify.app/)
 
 # Dependency
 
