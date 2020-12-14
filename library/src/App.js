@@ -1,24 +1,27 @@
+import { useEffect } from "react";
 import "./App.css";
-import { React } from "react";
-
+import fullpage from "fullpage.js";
 const App = () => {
+  useEffect(() => {
+    new fullpage("#fullpage", {
+      //options here
+      autoScrolling: true,
+      scrollHorizontally: true,
+    });
+
+    // //methods
+    // fullpage_api.setAllowScrolling(false);
+  }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={"ars"} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="fullpage">
+        <div className="section">page 1</div>
+        <div className="section">page 2</div>
+        <div className="section">page 3</div>
+        <div className="section">page 4</div>
+      </div>
     </div>
   );
 };
+
 export default App;
