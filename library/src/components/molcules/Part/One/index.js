@@ -1,7 +1,7 @@
-//import Particles from "react-particles-js";
+//import Particles from "react-tsparticles";
 
 const One = () => {
-  return <></>;
+  return <>1</>;
 };
 
 export default One;
