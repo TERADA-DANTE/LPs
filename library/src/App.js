@@ -3,14 +3,11 @@ import "./App.css";
 import fullpage from "fullpage.js";
 const App = () => {
   useEffect(() => {
-    new fullpage("#fullpage", {
-      //options here
-      autoScrolling: true,
-      scrollHorizontally: true,
-    });
-
-    // //methods
-    // fullpage_api.setAllowScrolling(false);
+    const $ = (selector) => document.querySelector(selector);
+    window.onload = function () {
+      console.log($("#fullpage"));
+      $("#fullpage").fullpage();
+    };
   }, []);
   return (
     <div className="App">
