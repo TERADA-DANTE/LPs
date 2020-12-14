@@ -2,13 +2,13 @@ import "./App.css";
 
 import General from "./components/pages/General/index";
 
-import FullPage from "./components/organisms/Full/index";
+import Parts from "./components/organisms/Parts/index";
 
 const App = () => {
   return (
     <div className="App">
       <General>
-        <FullPage />
+        <Parts />
       </General>
     </div>
   );
