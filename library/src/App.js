@@ -2,13 +2,13 @@ import "./App.css";
 
 import General from "./components/pages/General/index";
 
-import Parts from "./components/organisms/Parts/index";
+import Test from "./components/organisms/Test/index";
 
 const App = () => {
   return (
     <div className="App">
       <General>
-        <Parts />
+        <Test />
       </General>
     </div>
   );
