@@ -1,7 +1,7 @@
 //import Particles from "react-tsparticles";
 
 const One = () => {
-  return <>1</>;
+  return 3;
 };
 
 export default One;

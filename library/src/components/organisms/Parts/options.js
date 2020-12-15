@@ -2,10 +2,10 @@ import slides from "./slides";
 
 const options = {
   // For PC
-  scrollSensitivity: 0,
+  scrollSensitivity: 1,
 
   // For Mobile
-  touchSensitivity: 0,
+  touchSensitivity: 1,
 
   // Other options
   scrollSpeed: 500,
