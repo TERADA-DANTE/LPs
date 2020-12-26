@@ -1,8 +1,8 @@
-import "./App.css";
+import "./App.css"
 
-import General from "./components/pages/General/index";
+import General from "./components/pages/General/index"
 
-import Test from "./components/organisms/Test/index";
+import Test from "./components/organisms/Test/index"
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <Test />
       </General>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
