@@ -1,50 +1,41 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
-export default function Nav() {
+// Bootstrap
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Button from 'react-bootstrap/Button'
+
+export default function INav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white">
-      <div className="container">
-        <Link href="./">
-          <a className="navbar-brand">
-            <img src="/img/brand.svg" alt="brand-logo" />
-          </a>
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="fe fe-x"></i>
-          </button>
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item dropdown">Landings</li>
-            <li className="nav-item dropdown">Pages</li>
-            <li className="nav-item dropdown">Account</li>
-            <li className="nav-item dropdown">Documentation</li>
-          </ul>
-          <Link href="https://themes.getbootstrap.com/product/landkit/">
-            <a className="navbar-btn btn btn-sm btn-primary lift ml-auto" target="_blank">
-              Buy now
-            </a>
-          </Link>
-        </div>
-      </div>
-    </nav>
+    <Navbar className="py-4 px-5" expand="sm">
+      <Link href="/">
+        <a>
+          <Navbar.Brand>
+            <Image width="86" height="19" alt="brand-logo" src="/img/brand.svg" />
+          </Navbar.Brand>
+        </a>
+      </Link>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav style={{ marginLeft: 'auto' }}>
+          <Nav.Link className="px-3" href="">
+            Landing
+          </Nav.Link>
+          <Nav.Link className="px-3" href="">
+            pages
+          </Nav.Link>
+          <Nav.Link className="px-3" href="">
+            Account
+          </Nav.Link>
+          <Nav.Link className="px-3" href="">
+            Documentation
+          </Nav.Link>
+        </Nav>
+        <Button style={{ marginLeft: 'auto' }} size="lg">
+          Buy now
+        </Button>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
