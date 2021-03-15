@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 // Styles
-import 'bootstrap/dist/css/bootstrap.css'
+import '../styles/globals.css'
 
 // Types
 import { AppProps } from 'next/app'
