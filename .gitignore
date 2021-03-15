@@ -4,3 +4,4 @@ library/.eslintcache
 library/.eslintcache
 *.json
 library/.eslintcache
+node_modules/
